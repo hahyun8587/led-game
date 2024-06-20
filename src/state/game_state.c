@@ -106,7 +106,7 @@ void game_state_begin(struct service_state *state, struct app *app) {
 
             game_state->diff++;
         }
-        printk("%d\n", patrol_strats_idx);
+        
         k_msleep(400);
     }
     
